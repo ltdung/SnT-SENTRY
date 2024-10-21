@@ -23,14 +23,48 @@ MobileViT: environment_torch.yml
 EfficientViT: environment_efficientViT.yml
 
 ## Data Preparation:
+### Data Augmentation: 
 
-### Data Augmentation: data augmentation.ipynb
+data augmentation.ipynb
 
 ### Inference Noisy Data: 
-
 Gaussian noise: noisy_data_gaussian.ipynb
 
 Motion blur noise: inference_efficientViTM2_motionblur.ipynb
+
+## Training Models
+### Model Computational Complexity
+computational complexity_MobileViTV2.ipynb
+
+computational complexity_EfficientViT-M2.ipynb
+### Statistical Performance
+statistical_MobileViTV2.ipynb
+
+statistical_EfficientViT-M2.ipynb
+
+
+## Pretrained Weights and Inference Models:
+### Pretrained weight
+trained weight_MobileViT2.pth
+
+trained weight_EfficientViT_M2.pth
+
+### Inference Models
+inference_MobileViT2_gaussian.ipynb
+
+inference_MobileViT2_motionblur.ipynb
+
+inference_efficientViTM2_gaussian.ipynb
+
+inference_efficientViTM2_motionblur.ipynb
+
+### Inference Power Consumption
+inference_MobileViT_pc.ipynb
+
+inference_efficientViT_M2_pc.ipynb
+
+
+
 
 
 
