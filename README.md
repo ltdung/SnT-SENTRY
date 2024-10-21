@@ -42,6 +42,9 @@ Gaussian noise: noisy_data_gaussian.ipynb
 
 Motion blur noise: inference_efficientViTM2_motionblur.ipynb
 
+![noise_level](https://github.com/user-attachments/assets/ce54dce4-2de4-44e3-ab16-df1c187dcba5)
+
+
 ## Training Models
 ### Model Computational Complexity
 computational complexity_MobileViTV2.ipynb
