@@ -51,7 +51,8 @@ computational complexity_MobileViTV2.ipynb
 
 computational complexity_EfficientViT-M2.ipynb
 
-![complexity](https://github.com/user-attachments/assets/90d4c643-5c4d-46a3-8b61-047b688d88a9)
+![complexity](https://github.com/user-attachments/assets/4aab05eb-aec7-44e0-a95f-d3ef3bb75253)
+
 
 ### Statistical Performance
 statistical_MobileViTV2.ipynb
