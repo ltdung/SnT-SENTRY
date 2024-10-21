@@ -22,5 +22,15 @@ MobileViT: environment_torch.yml
 
 EfficientViT: environment_efficientViT.yml
 
-## 
+## Data Preparation:
+
+### Data Augmentation: data augmentation.ipynb
+
+### Inference Noisy Data: 
+
+Gaussian noise: noisy_data_gaussian.ipynb
+
+Motion blur noise: inference_efficientViTM2_motionblur.ipynb
+
+
 
