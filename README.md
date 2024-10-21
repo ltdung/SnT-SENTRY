@@ -4,8 +4,9 @@ The SENTRY project aims to optimize Earth Observation (EO) systems by integratin
 For more FNR research projects, led by SIGCOM, please visit: https://www.uni.lu/snt-en/research-groups/sigcom/research/
 
 # Task 1 - EO Image Classification
+It aims to explore the most effective, lightweight, pre-trained ViT model that can be employed in onboard satellites.
 
-## Requirements:
+## Requirements to Reproduce the Code:
 To reproduce the experiment, it is highly recommended that you install the required packages from the exported environment file (.yml).
 
 ### To create a replicate env, please follow:
