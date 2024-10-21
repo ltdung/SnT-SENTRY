@@ -34,6 +34,9 @@ https://github.com/phelber/EuroSAT
 
 data augmentation.ipynb
 
+![augment](https://github.com/user-attachments/assets/2bdc9f92-731b-41c5-ad45-95373b5dae98)
+
+
 ### Inference Noisy Data: 
 Gaussian noise: noisy_data_gaussian.ipynb
 
