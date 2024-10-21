@@ -23,6 +23,13 @@ MobileViT: environment_torch.yml
 EfficientViT: environment_efficientViT.yml
 
 ## Data Preparation:
+### Dataset:
+EuroSAT: Land Use and Land Cover Classification with Sentinel-2
+https://github.com/phelber/EuroSAT
+
+![eurosat_overview_small](https://github.com/user-attachments/assets/c3fefb53-3379-46e9-82db-15282795a9f5)
+
+
 ### Data Augmentation: 
 
 data augmentation.ipynb
