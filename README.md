@@ -19,6 +19,7 @@ If it does not work: conda env create -f environment.yml --no-deps
 
 ### There are two different environments (one for MobileViT, and the other for EfficientViT)
 MobileViT: environment_torch.yml
+
 EfficientViT: environment_efficientViT.yml
 
 ## 
