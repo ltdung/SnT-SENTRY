@@ -80,7 +80,8 @@ inference_MobileViT_pc.ipynb
 
 inference_efficientViT_M2_pc.ipynb
 
-![power_consumption](https://github.com/user-attachments/assets/8251286b-1123-4bdd-9051-741c6c3b2ba5)
+![power_consumption](https://github.com/user-attachments/assets/75e06312-c564-4772-8b23-ddfb00f731fa)
+
 
 
 
