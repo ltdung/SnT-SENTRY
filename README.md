@@ -50,6 +50,9 @@ Motion blur noise: inference_efficientViTM2_motionblur.ipynb
 computational complexity_MobileViTV2.ipynb
 
 computational complexity_EfficientViT-M2.ipynb
+
+![complexity](https://github.com/user-attachments/assets/90d4c643-5c4d-46a3-8b61-047b688d88a9)
+
 ### Statistical Performance
 statistical_MobileViTV2.ipynb
 
