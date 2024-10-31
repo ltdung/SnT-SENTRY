@@ -3,7 +3,7 @@ The SENTRY project aims to optimize Earth Observation (EO) systems by integratin
 
 For more FNR research projects, led by SIGCOM, please visit: https://www.uni.lu/snt-en/research-groups/sigcom/research/
 
-# Task 1 - EO Image Classification
+# Task 1 - EO Image Classification (EO-IC)
 It aims to explore the most effective, lightweight, pre-trained ViT model that can be employed in onboard satellites.
 
 ## Requirements to Reproduce the Code:
@@ -81,6 +81,35 @@ inference_MobileViT_pc.ipynb
 inference_efficientViT_M2_pc.ipynb
 
 ![power_consumption](https://github.com/user-attachments/assets/75e06312-c564-4772-8b23-ddfb00f731fa)
+
+
+# Task 2 - Semantic Knowledge Distillation for EO-IC
+The objective is to explore the most effective lightweight ResNet model for onboard satellite deployment by applying dynamic weighting in a semantic dual-teacher knowledge distillation (DualKD)  framework.
+
+![KD_workflow](https://github.com/user-attachments/assets/ef5a9d3d-4b19-4ec3-8c84-80e04be73395)
+
+We propose a dynamic weighting strategy in a semantic DualKD framework to enhance the lightweight ResNet8 model, achieving over 90% accuracy, precision, and recall. ResNet8, in particular, demonstrates substantial efficiency gains, with 97.5% fewer parameters, 96.7% fewer FLOPs, 86.2% lower power consumption, and 63.5% faster inference time compared to MobileViT. This significant reduction in complexity and resource requirements makes ResNet8 an optimal choice for EO-IC tasks, balancing high performance with practical deployment demands.
+
+![acc_performance](https://github.com/user-attachments/assets/2cca0101-f02f-469b-ae5f-7ecd68f4275c)
+
+## Trained model weights
+
+resnet8_dual.pth
+
+resnet16_dual.pth
+
+## Inference Models
+Inference_KD_resnet8_dualKD.ipynb
+
+Inference_KD_resnet16_dualKD.ipynb
+
+## Main code for dynamic weighting semantic DualKD
+
+train_KD_resnet8_dualKD.ipynb
+
+train_KD_resnet16_dualKD.ipynb
+
+
 
 
 
