@@ -82,6 +82,18 @@ inference_efficientViT_M2_pc.ipynb
 
 ![power_consumption](https://github.com/user-attachments/assets/75e06312-c564-4772-8b23-ddfb00f731fa)
 
+### Cite
+
+@article{le2024board,
+  title={On-board satellite image classification for earth observation: A comparative study of ViT models},
+  author={Le, Thanh-Dung and Ha, Vu Nguyen and Nguyen, Ti Ti and Eappen, Geoffrey and Thiruvasagam, Prabhu and Garces-Socarras, Luis M and Chou, Hong-fu and Gonzalez-Rios, Jorge L and Merlano-Duncan, Juan Carlos and Chatzinotas, Symeon},
+  year={2024}
+  eprint={2409.03901},
+  archivePrefix={arXiv},
+  primaryClass={cs.NI},
+  url={https://arxiv.org/abs/2409.03901},
+}
+
 
 # Task 2 - Semantic Knowledge Distillation for EO-IC
 The objective is to explore the most effective lightweight ResNet model for onboard satellite deployment by applying dynamic weighting in a semantic dual-teacher knowledge distillation (DualKD)  framework.
