@@ -90,7 +90,7 @@ inference_efficientViT_M2_pc.ipynb
   year={2024}
   eprint={2409.03901},
   archivePrefix={arXiv},
-  primaryClass={cs.NI},
+  primaryClass={cs.CV},
   url={https://arxiv.org/abs/2409.03901},
 }
 ```
