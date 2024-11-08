@@ -121,6 +121,19 @@ train_KD_resnet8_dualKD.ipynb
 
 train_KD_resnet16_dualKD.ipynb
 
+### Cite
+```
+@article{le2024semantic,
+  title={Semantic Knowledge Distillation for Onboard Satellite Earth Observation Image Classification},
+  author={Le, Thanh-Dung and Ha, Vu Nguyen and Nguyen, Ti Ti and Eappen, Geoffrey and Thiruvasagam, Prabhu and Garces-Socarras, Luis M and Chou, Hong-fu and Gonzalez-Rios, Jorge L and Merlano-Duncan, Juan Carlos and Chatzinotas, Symeon},
+  year={2024}
+  eprint={2411.00209},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2411.00209},
+}
+```
+
 
 
 
