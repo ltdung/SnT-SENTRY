@@ -140,7 +140,6 @@ This study introduces ResNet-GLUSE, a lightweight ResNet variant enhanced with G
 
 ![image](https://github.com/user-attachments/assets/daa3006d-c6b4-4ad7-b2e0-7d4d34692ff5)
 
-
 Our experimental results on the EuroSAT and PatternNet datasets demonstrate the model’s capability to achieve above 94% and 98% accuracy, respectively. While other models like MobileViT can reach 99% accuracy, our proposed ResNet-GLUSE shows remarkable efficiency, requiring 33× fewer parameters, 27x fewer FLOPs, 33x smaller model size (MB), approximately 6x lower power consumption (W) on GPU, and about 3x faster inference time (s). This drastic reduction in resource utilization positions ResNet-GLUSE as an ideal candidate for onboard satellite deployments, where real-time analysis and limited computational resources are critical. Moreover, its simple design makes it easily adaptable for neuromorphic computing, showing an ultra-low power inference of 852.30 mW on the Akida Brainchip platform.
 
 ![image](https://github.com/user-attachments/assets/41a5cfdb-008a-4a84-b2b4-3f519d6ccfc9)
