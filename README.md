@@ -149,7 +149,18 @@ Our experimental results on the EuroSAT and PatternNet datasets demonstrate the 
 ![image](https://github.com/user-attachments/assets/9b9f9106-e626-4a84-86d8-287177d54b9f)
 ![image](https://github.com/user-attachments/assets/88f78fc6-510e-457b-bf75-881b42f4c4eb)
 
-
+### Cite
+```
+@article{le2025gluse,
+  title={GLUSE: Enhanced Channel-Wise Adaptive Gated Linear Units SE for Onboard Satellite Earth Observation Image Classification},
+  author={Le, Thanh-Dung and Ha, Vu Nguyen and Nguyen, Ti Ti and Eappen, Geoffrey and Thiruvasagam, Prabhu and Chou, Hong-fu and Tran, Duc-Dung and Nguyen-Kha, Hung and Garces-Socarras, Luis M and Chou, Hong-fu and Gonzalez-Rios, Jorge L and Merlano-Duncan, Juan Carlos and Chatzinotas, Symeon},
+  year={2025}
+  eprint={2504.12484},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2504.12484},
+}
+```
 
 
 
