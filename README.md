@@ -1,5 +1,5 @@
 # SnT-SENTRY
-The SENTRY project aims to optimize Earth Observation (EO) systems by integrating cutting-edge satellite communication networks with novel communication strategies. It is funded by the Luxembourg National Research Fund (FNR) and led by the SIGCOM group at the Interdisciplinary Centre for Security, Reliability, and Trust (SnT), University of Luxembourg.
+The SENTRY project aims to optimize Earth Observation (EO) systems by integrating cutting-edge satellite communication networks with novel communication strategies and machine learning approaches. It is funded by the Luxembourg National Research Fund (FNR) and led by the SIGCOM group at the Interdisciplinary Centre for Security, Reliability, and Trust (SnT), University of Luxembourg.
 
 For more FNR research projects, led by SIGCOM, please visit: https://www.uni.lu/snt-en/research-groups/sigcom/research/
 
