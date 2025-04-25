@@ -24,10 +24,16 @@ EfficientViT: environment_efficientViT.yml
 
 ## Data Preparation:
 ### Dataset:
-EuroSAT: Land Use and Land Cover Classification with Sentinel-2
+**EuroSAT**: Land Use and Land Cover Classification with Sentinel-2
 https://github.com/phelber/EuroSAT
 
 ![eurosat_overview_small](https://github.com/user-attachments/assets/c3fefb53-3379-46e9-82db-15282795a9f5)
+
+**PatternNet**: A benchmark dataset for performance evaluation of remote sensing image retrieval
+https://sites.google.com/view/zhouwx/dataset
+
+![image](https://github.com/user-attachments/assets/9e8b4d7e-73c7-43bb-9ef2-c1586151717c)
+
 
 
 ### Data Augmentation: 
