@@ -3,7 +3,7 @@ The SENTRY project aims to optimize Earth Observation (EO) systems by integratin
 
 For more FNR research projects, led by SIGCOM, please visit: https://www.uni.lu/snt-en/research-groups/sigcom/research/
 
-# Task 1 - EO Image Classification (EO-IC)
+# Task 1 - ViTs for Onboard Satellite-Based EO Image Classification (EO-IC)
 It aims to explore the most effective, lightweight, pre-trained ViT model that can be employed in onboard satellites.
 
 ## Requirements to Reproduce the Code:
@@ -37,49 +37,16 @@ data augmentation.ipynb
 ![augment](https://github.com/user-attachments/assets/2bdc9f92-731b-41c5-ad45-95373b5dae98)
 
 
-### Inference Noisy Data: 
-Gaussian noise: noisy_data_gaussian.ipynb
-
-Motion blur noise: inference_efficientViTM2_motionblur.ipynb
+### Inference on Unseen Data with Noisy (Gaussian, Motion Blur): 
 
 ![noise_level](https://github.com/user-attachments/assets/ce54dce4-2de4-44e3-ab16-df1c187dcba5)
 
 
 ## Training Models
 ### Model Computational Complexity
-computational complexity_MobileViTV2.ipynb
-
-computational complexity_EfficientViT-M2.ipynb
-
 ![complexity](https://github.com/user-attachments/assets/4aab05eb-aec7-44e0-a95f-d3ef3bb75253)
 
-
-### Statistical Performance
-statistical_MobileViTV2.ipynb
-
-statistical_EfficientViT-M2.ipynb
-
-
-## Pretrained Weights and Inference Models:
-### Pretrained weight
-trained weight_MobileViT2.pth
-
-trained weight_EfficientViT_M2.pth
-
-### Inference Models
-inference_MobileViT2_gaussian.ipynb
-
-inference_MobileViT2_motionblur.ipynb
-
-inference_efficientViTM2_gaussian.ipynb
-
-inference_efficientViTM2_motionblur.ipynb
-
-### Inference Power Consumption
-inference_MobileViT_pc.ipynb
-
-inference_efficientViT_M2_pc.ipynb
-
+### Inference Power Consumption (W) Comparision
 ![power_consumption](https://github.com/user-attachments/assets/75e06312-c564-4772-8b23-ddfb00f731fa)
 
 ### Cite
@@ -104,22 +71,6 @@ We propose a dynamic weighting strategy in a semantic DualKD framework to enhanc
 
 ![acc_performance](https://github.com/user-attachments/assets/2cca0101-f02f-469b-ae5f-7ecd68f4275c)
 
-## Trained model weights
-
-resnet8_dual.pth
-
-resnet16_dual.pth
-
-## Inference Models
-Inference_KD_resnet8_dualKD.ipynb
-
-Inference_KD_resnet16_dualKD.ipynb
-
-## Main code for dynamic weighting semantic DualKD
-
-train_KD_resnet8_dualKD.ipynb
-
-train_KD_resnet16_dualKD.ipynb
 
 ### Cite
 ```
@@ -161,7 +112,52 @@ Our experimental results on the EuroSAT and PatternNet datasets demonstrate the 
   url={https://arxiv.org/abs/2504.12484},
 }
 ```
+# Task 4 - Task-Oriented Integration of Sensing, Computation, and Communication
+
+EO satellites generate massive volumes of data that must be transmitted to ground stations for processing and analysis. This process faces several key challenges:
+
+## Bandwidth Limitations: 
+Satellite communication links have restricted bandwidth, making transmitting large volumes of raw EO data challenging.
+
+## Latency Requirements: 
+Many EO applications require timely data delivery, necessitating efficient transmission systems with minimal delay.
+
+## Inefficient Traditional Communication: 
+Conventional bit-oriented communication methods often transmit redundant and irrelevant information, wasting valuable bandwidth.
+
+## Trade-offs Between Quality and Transmission Efficiency: 
+Compression techniques reduce data volume but can degrade image quality, potentially affecting downstream task performance.
+
+The study identify a significant gap in understanding how communication conditions affect the performance of EO applications. Current approaches lack models linking EO objectives to transmitted data, which is essential for optimizing communication systems for specific tasks.
+
+## First, Transmission System Architecture: The complete system architecture is shown below, demonstrating the flow from image compression to satellite transmission through DVB-S2(X) and eventual reception at the ground station.
+
+![image](https://github.com/user-attachments/assets/6a5c5c72-ccb4-475f-bef1-665369eeec36)
+
+## Then, Transmission Loss Simulation: A parameter 's' representing the ratio of actual SNR to Shannon-based SNR is introduced to model transmission loss due to wireless constraints.
+
+![image](https://github.com/user-attachments/assets/986b7346-8a01-4399-948c-13ce10088545)
+
+The results obtained for semantic loss modeling of EfficientViT performance based on image quality and SNR ratio
+
+![image](https://github.com/user-attachments/assets/7d806592-3b1f-4dfe-a604-30ef88e10fe1)
+
+Mean Absolute Percentage Error (MAPE) versus number of terms in the fitting model for different ML architectures, showing significant error reduction with more terms.
+
+![image](https://github.com/user-attachments/assets/d013fba9-c499-40cf-9b4f-c38ede121490)
 
 
+### Cite
+```
+@article{nguyen2025semantic,
+  title={A Semantic-Loss Function Modeling Framework With Task-Oriented Machine Learning Perspectives},
+  author={Nguyen, Ti Ti and  Le, Thanh-Dung and Ha, Vu Nguyen and Eappen, Geoffrey and Thiruvasagam, Prabhu and Chou, Hong-fu and Tran, Duc-Dung and Nguyen-Kha, Hung and Garces-Socarras, Luis M and Chou, Hong-fu and Gonzalez-Rios, Jorge L and Merlano-Duncan, Juan Carlos and Chatzinotas, Symeon},
+  year={2025}
+  eprint={2503.09903},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2503.09903},
+}
+```
 
 
