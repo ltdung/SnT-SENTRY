@@ -134,13 +134,15 @@ Conventional bit-oriented communication methods often transmit redundant and irr
 ## Trade-offs Between Quality and Transmission Efficiency: 
 Compression techniques reduce data volume but can degrade image quality, potentially affecting downstream task performance.
 
-The study identify a significant gap in understanding how communication conditions affect the performance of EO applications. Current approaches lack models linking EO objectives to transmitted data, which is essential for optimizing communication systems for specific tasks.
+The study identify a significant gap in understanding how communication conditions affect the performance of EO applications. Current approaches lack models linking EO objectives to transmitted data, which is essential for optimizing communication systems for specific tasks, by following steps:
 
-## First, Transmission System Architecture: The complete system architecture is shown below, demonstrating the flow from image compression to satellite transmission through DVB-S2(X) and eventual reception at the ground station.
+## Transmission System Architecture: 
+The complete system architecture is shown below, demonstrating the flow from image compression to satellite transmission through DVB-S2(X) and eventual reception at the ground station.
 
 ![image](https://github.com/user-attachments/assets/6a5c5c72-ccb4-475f-bef1-665369eeec36)
 
-## Then, Transmission Loss Simulation: A parameter 's' representing the ratio of actual SNR to Shannon-based SNR is introduced to model transmission loss due to wireless constraints.
+## Transmission Loss Simulation: 
+A parameter 's' representing the ratio of actual SNR to Shannon-based SNR is introduced to model transmission loss due to wireless constraints.
 
 ![image](https://github.com/user-attachments/assets/986b7346-8a01-4399-948c-13ce10088545)
 
