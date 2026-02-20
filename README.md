@@ -175,6 +175,9 @@ Mean Absolute Percentage Error (MAPE) versus number of terms in the fitting mode
 
 Satellite-based remote monitoring systems generate large volumes of high-resolution imagery, but transmitting this data over bandwidth-, power-, and channel-constrained links remains a major bottleneck. This project investigates **Deep Joint Source–Channel Coding (DJSCC)** as a semantic communication framework for efficient and robust Earth observation imagery transmission.
 
+<img width="1363" height="796" alt="image" src="https://github.com/user-attachments/assets/f3418a62-653c-4829-90ca-4af2b7a3a055" />
+
+
 We analyze semantic loss from two complementary perspectives:
 
 - **Reconstruction-centric:** Quantifies semantic degradation using reconstruction fidelity and perceptual similarity under varying compression ratios and channel signal-to-noise ratios (SNR).
