@@ -169,7 +169,7 @@ Mean Absolute Percentage Error (MAPE) versus number of terms in the fitting mode
 ```
 
 
-# Task 4 - Semantic Loss as a System Metric for Imagery Transmission
+# Task 5 - Semantic Loss as a System Metric for Imagery Transmission
 
 ## Project Summary
 
