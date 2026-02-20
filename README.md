@@ -169,3 +169,52 @@ Mean Absolute Percentage Error (MAPE) versus number of terms in the fitting mode
 ```
 
 
+# Task 4 - Semantic Loss as a System Metric for Imagery Transmission
+
+## Project Summary
+
+Satellite-based remote monitoring systems generate large volumes of high-resolution imagery, but transmitting this data over bandwidth-, power-, and channel-constrained links remains a major bottleneck. This project investigates **Deep Joint Source–Channel Coding (DJSCC)** as a semantic communication framework for efficient and robust Earth observation imagery transmission.
+
+We analyze semantic loss from two complementary perspectives:
+
+- **Reconstruction-centric:** Quantifies semantic degradation using reconstruction fidelity and perceptual similarity under varying compression ratios and channel signal-to-noise ratios (SNR).
+- **Task-oriented:** Evaluates semantic quality based on downstream task performance (e.g., classification, detection) using lightweight application-specific models deployed at the receiver.
+
+Based on extensive empirical analysis, we propose a **unified semantic loss model** that captures the relationship between:
+
+- Compression level  
+- Channel conditions (SNR)  
+- Reconstruction quality  
+- Downstream task performance  
+
+This model enables **semantic-aware resource allocation**, allowing satellite systems to optimize transmission strategies and maximize worst-case semantic performance across multiple ground users.
+
+---
+
+## Key Contributions
+
+- Unified semantic loss framework for DJSCC-based imagery transmission  
+- Joint modeling of reconstruction fidelity and downstream task performance  
+- Semantic-aware resource allocation for constrained satellite communication links  
+- Extensive validation across varying compression ratios and channel conditions  
+
+---
+
+## Impact
+
+This work advances **semantic communication for satellite Earth observation**, enabling efficient imagery transmission and reliable downstream AI inference under limited bandwidth, power, and dynamic channel conditions. It provides a practical foundation for next-generation satellite communication systems supporting edge AI and remote monitoring applications.
+
+
+### Cite
+```
+@article{nguyen2026toward,
+  title={Toward a Unified Semantic Loss Model for Deep JSCC-based Transmission of EO Imagery},
+  author={Nguyen, Ti Ti and Le, Thanh-Dung and Ha, Vu Nguyen and Tran, Duc-Dung and Nguyen-Kha, Hung and Tran, Dinh-Hieu and Marcos-Rojas, Carlos L and Merlano-Duncan, Juan C and Chatzinotas, Symeon},
+  journal={arXiv preprint arXiv:2602.00136},
+  year={2026},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2602.00136},
+}
+```
+
