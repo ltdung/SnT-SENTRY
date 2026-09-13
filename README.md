@@ -14,6 +14,10 @@ Code, weights and paper live in their own repository:
 · [paper](https://arxiv.org/abs/ARXIV_ID) · [weights](https://huggingface.co/ltdung/limodenet)
 
 
+<img width="1800" height="954" alt="architecture" src="https://github.com/user-attachments/assets/6486cede-09dc-4a58-b038-1e3443e332f0" />
+
+
+
 # Task 1 - ViTs for Onboard Satellite-Based EO Image Classification (EO-IC)
 It aims to explore the most effective, lightweight, pre-trained ViT model that can be employed in onboard satellites.
 
