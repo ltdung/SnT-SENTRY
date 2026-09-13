@@ -64,7 +64,9 @@ data augmentation.ipynb
   volume={64},
   pages = {4706618},
   year={2026},
-  note={{DOI}:10.1109/TGRS.2026.3729143}}
+  doi={10.1109/TGRS.2026.3729143},
+  url={https://doi.org/10.1109/TGRS.2026.3729143},
+}
 ```
 
 # Task 2 - Semantic Knowledge Distillation for EO-IC
@@ -106,14 +108,15 @@ Our experimental results on the EuroSAT and PatternNet datasets demonstrate the 
 
 ### Cite
 ```
-@article{le2025gluse,
-  title={GLUSE: Enhanced Channel-Wise Adaptive Gated Linear Units SE for Onboard Satellite Earth Observation Image Classification},
-  author={Le, Thanh-Dung and Ha, Vu Nguyen and Nguyen, Ti Ti and Eappen, Geoffrey and Thiruvasagam, Prabhu and Chou, Hong-fu and Tran, Duc-Dung and Nguyen-Kha, Hung and Garces-Socarras, Luis M and Chou, Hong-fu and Gonzalez-Rios, Jorge L and Merlano-Duncan, Juan Carlos and Chatzinotas, Symeon},
-  year={2025}
-  eprint={2504.12484},
-  archivePrefix={arXiv},
-  primaryClass={cs.CV},
-  url={https://arxiv.org/abs/2504.12484},
+@article{le2026gluse,
+  title={{GLUSE}: Enhanced Channel-Wise Adaptive Gated Linear Units {SE} for Onboard Satellite Earth Observation Image Classification},
+  author={Le, Thanh-Dung and Ha, Vu Nguyen and Nguyen, Ti Ti and Tran, Duc-Dung and Nguyen-Kha, Hung and Garces-Socarras, Luis M and Merlano-Duncan, Juan Carlos and Chatzinotas, Symeon},
+  journal={IEEE J. Sel. Top. Appl. Earth Obs. Remote Sens.},
+  volume={19},
+  year={2026},
+  pages={25446 - 25463},
+  doi={10.1109/JSTARS.2026.3716862},
+  url={https://doi.org/10.1109/JSTARS.2026.3716862}
 }
 ```
 # Task 4 - Task-Oriented Integration of Sensing, Computation, and Communication
