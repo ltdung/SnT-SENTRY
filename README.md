@@ -79,14 +79,13 @@ We propose a dynamic weighting strategy in a semantic DualKD framework to enhanc
 
 ### Cite
 ```
-@article{le2024semantic,
-  title={Semantic Knowledge Distillation for Onboard Satellite Earth Observation Image Classification},
-  author={Le, Thanh-Dung and Ha, Vu Nguyen and Nguyen, Ti Ti and Eappen, Geoffrey and Thiruvasagam, Prabhu and Garces-Socarras, Luis M and Chou, Hong-fu and Gonzalez-Rios, Jorge L and Merlano-Duncan, Juan Carlos and Chatzinotas, Symeon},
-  year={2024}
-  eprint={2411.00209},
-  archivePrefix={arXiv},
-  primaryClass={cs.CV},
-  url={https://arxiv.org/abs/2411.00209},
+@inproceedings{le2025semantic,
+  title={Semantic knowledge distillation for onboard satellite earth observation image classification},
+  author={Le, Thanh-Dung and Ha, Vu Nguyen and Nguyen, Ti Ti and Eappen, Geoffrey and Thiruvasagam, Prabhu and Chou, Hong-fu and Tran, Duc-Dung and Garces-Socarras, Luis M and Gonzalez-Rios, Jorge L and Merlano-Duncan, Juan Carlos and others},
+  booktitle={2025 IEEE International Conference on Machine Learning for Communication and Networking (ICMLCN)},
+  pages={1--6},
+  year={2025},
+  organization={IEEE}
 }
 ```
 
