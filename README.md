@@ -3,6 +3,17 @@ The SENTRY project aims to optimize Earth Observation (EO) systems by integratin
 
 For more FNR research projects, led by SIGCOM, please visit: https://www.uni.lu/snt-en/research-groups/sigcom/research/
 
+# Task 0 - Semantic Information Preserving Encoder 
+### LIMODENet — attention-free compact encoders for onboard satellite image restoration
+
+A 0.69M-parameter, softmax-/QKV-free backbone that restores DVB-S2X-degraded
+Earth-observation imagery and converts end-to-end to a spiking network with zero
+blocked operations, for neuromorphic accelerators (Akida, Loihi-2).
+Code, weights and paper live in their own repository:
+**[ltdung/limodenet](https://github.com/ltdung/limodenet)**
+· [paper](https://arxiv.org/abs/ARXIV_ID) · [weights](https://huggingface.co/ltdung/limodenet)
+
+
 # Task 1 - ViTs for Onboard Satellite-Based EO Image Classification (EO-IC)
 It aims to explore the most effective, lightweight, pre-trained ViT model that can be employed in onboard satellites.
 
