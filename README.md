@@ -57,15 +57,14 @@ data augmentation.ipynb
 
 ### Cite
 ```
-@article{le2024board,
-  title={On-board satellite image classification for earth observation: A comparative study of ViT models},
-  author={Le, Thanh-Dung and Ha, Vu Nguyen and Nguyen, Ti Ti and Eappen, Geoffrey and Thiruvasagam, Prabhu and Garces-Socarras, Luis M and Chou, Hong-fu and Gonzalez-Rios, Jorge L and Merlano-Duncan, Juan Carlos and Chatzinotas, Symeon},
-  year={2024}
-  eprint={2409.03901},
-  archivePrefix={arXiv},
-  primaryClass={cs.CV},
-  url={https://arxiv.org/abs/2409.03901},
-}
+@article{le2026onboardvit,
+  author={Le, Thanh-Dung and Ha, Vu Nguyen and Nguyen, Ti Ti and Tran, Duc-Dung and Nguyen-Kha, Hung and Garces-Socarras, Luis M and Merlano-Duncan, Juan Carlos and Chatzinotas, Symeon},
+  title={Onboard Satellite Image Classification for Earth Observation: A Comparative Study of {ViT} Models},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  volume={64},
+  pages = {4706618},
+  year={2026},
+  note={{DOI}:10.1109/TGRS.2026.3729143}}
 ```
 
 # Task 2 - Semantic Knowledge Distillation for EO-IC
