@@ -11,7 +11,7 @@ Earth-observation imagery and converts end-to-end to a spiking network with zero
 blocked operations, for neuromorphic accelerators (Akida, Loihi-2).
 Code, weights and paper live in their own repository:
 **[ltdung/limodenet](https://github.com/ltdung/limodenet)**
-· [paper](https://arxiv.org/abs/ARXIV_ID) · [weights](https://huggingface.co/ltdung/limodenet)
+· [paper (arXiv)](https://arxiv.org/abs/2609.14690) · [weights](https://huggingface.co/ltdung/limodenet)
 
 
 <img width="1800" height="954" alt="architecture" src="https://github.com/user-attachments/assets/6486cede-09dc-4a58-b038-1e3443e332f0" />
